@@ -48,4 +48,9 @@ class User extends Authenticatable
     {
         return $this->belongsToMany(Drink::class);
     }
+
+    public function getPetitionsAttribute()
+    {
+        return count($this->drinks);
+    }
 }

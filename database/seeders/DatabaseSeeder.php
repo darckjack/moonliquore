@@ -20,6 +20,18 @@ class DatabaseSeeder extends Seeder
             'ingredients' => 'ron, menta, limon, azucar, hielo'
         ]);
 
+        \App\Models\Drink::create([
+            'name' => 'Mojito 2',
+            'description' => 'Bebida Tipica de cuba',
+            'ingredients' => 'ron, menta, limon, azucar, hielo'
+        ]);
+
+        \App\Models\Drink::create([
+            'name' => 'Mojito 3',
+            'description' => 'Bebida Tipica de cuba',
+            'ingredients' => 'ron, menta, limon, azucar, hielo'
+        ]);
+
         // \App\Models\User::factory()->create([
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
