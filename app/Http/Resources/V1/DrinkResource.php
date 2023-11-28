@@ -17,6 +17,7 @@ class DrinkResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
+            'image_url' => $this->image_url,
             'description' => $this->description,
             'ingredients' => $this->ingredients,
             'petitions' => $this->petitions

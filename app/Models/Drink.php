@@ -12,6 +12,7 @@ class Drink extends Model
     protected $fillable = [
         'name',
         'description',
+        'image_url',
         'ingredients',
     ];
 
